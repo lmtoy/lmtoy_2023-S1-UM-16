@@ -15,7 +15,8 @@ on["G1.7+3.7-234"] =  [ 110041, 110049, 110053,]                                
 # parameters for the first pass of the pipeline
 pars1 = {}
 
-pars1["G1.7+3.7-234"] = "oid=0 bank=0 pix_list=-13 extent=600"
+# only do bank0 now
+pars1["G1.7+3.7-234"] = "oid=0 bank=0 pix_list=-13 extent=600 dv=10 dw=10"
 
 # parameters for the (optional) second pass of the pipeline
 pars2 = {}
