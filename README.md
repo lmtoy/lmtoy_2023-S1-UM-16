@@ -1,10 +1,13 @@
 # 2023-S1-UM-16
 
 Source: G1.7+3.7-234
+Project title: Molecular Clouds in the Fermi Bubble
 
-this project maps a HVC near the galactic center.   4 fields that need to be mosaiced. 3 were observed.
+This project maps some HVC's near the galactic center.
 
+4 fields that need to be combined/mosaiced. 3 were observed, the NE field is missing.
 
+See also 2024-S1-MX-2 for a followup, where also G358.7+3.7+179 was observed.
 
 1. example manual running
 
