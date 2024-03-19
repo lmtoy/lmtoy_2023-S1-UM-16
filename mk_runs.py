@@ -16,9 +16,9 @@ on["G1.7+3.7-234"] =  [ 110041, 110049, 110053,]                                
 pars1 = {}
 
 # both banks
-pars1["G1.7+3.7-234"] = "pix_list=-13 extent=600 dv=50 dw=50"
+pars1["G1.7+3.7-234"] = "pix_list=-0,13 extent=600 dv=50 dw=50"
 
-# pars1["G1.7+3.7-234"] = "oid=1 bank=1 pix_list=-0,13 extent=600 dv=10 dw=10"
+# pars1["G1.7+3.7-234"] = "bank=1 pix_list=-0,13 extent=600 dv=10 dw=10"
 
 
 pars2 = {}
