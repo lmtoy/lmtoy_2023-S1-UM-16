@@ -7,6 +7,8 @@ This project maps some HVC's near the galactic center.
 
 4 fields that need to be combined/mosaiced. 3 were observed, the NE field is missing.
 
+More fields were observed in 2024-S1-MX-2 , and they should be combined here
+
 See also 2024-S1-MX-2 for a followup, where also G358.7+3.7+179 was observed.
 
 1. example manual running
@@ -19,6 +21,6 @@ This is the local 12CO/13CO and shows the OFF position has some gas at V=-xxx
 
 2.  Mark's manual version
 
-SLpipeline.sh restart=1 obsnum=110041 dv=20 dw=80 pix_list=-12,13 oid=0 bank=0 vlsr=-234 rms_cut=4 x_extent=510 y_extent=510 b_order=2 otf_cal=1
+SLpipeline.sh restart=1 obsnum=110041 dv=20 dw=80 pix_list=-12,13 bank=0 vlsr=-234 rms_cut=4 x_extent=510 y_extent=510 b_order=2 otf_cal=1
 
-This is focusing on the HVC velocity.
+This is focusing on the HVC velocity, not on the bright galactic mess.
